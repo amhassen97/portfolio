@@ -9,11 +9,11 @@ enableRobotsTXT: true
 
 menu:
   main:
-  - identifier: archive
-    name: Archive
-    title: Archive
-    url: /posts/
-    weight: 0
+    - identifier: archive
+      name: Archive
+      title: Archive
+      url: /posts/
+      weight: 0
 
 params:
   author: "Abdullah Hassen"
@@ -31,12 +31,12 @@ params:
   paginationSinglePost: true
   style: light
   readMore: false # show read more button
-  readNextPosts: 5  # show 5 related posts, 0 by default
+  readNextPosts: 5 # show 5 related posts, 0 by default
   disableSummary: false
   copyCodeButton: true # true by default
   rssAsSocialIcon: true
   # utteranc.es support
-  utterancesRepo: ""  # mandatory
+  utterancesRepo: "" # mandatory
   utterancesTheme: "" # optional
   utterancesIssue: "" # optional
   utterancesLabel: "" # optional
@@ -60,11 +60,15 @@ params:
     login: hugo-theme-anubis
     pingback: true
   social:
-  - id: github
-    name: gohugoio
-#  - id: hugo
-#    url: "https://gohugo.io/"
-#    icon: "hugo"
+    - id: github
+      name: gohugoio
+    #  - id: hugo
+    #    url: "https://gohugo.io/"
+    #    icon: "hugo"
+    - id: lightMode
+      # url: "https://www.google.com/search?q=lightMode"
+    - id: darkMode
+      # url: "https://www.google.com/search?q=darkMode"
 
 markup:
   goldmark:
