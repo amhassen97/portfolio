@@ -9,11 +9,29 @@ enableRobotsTXT: true
 
 menu:
   main:
-    - identifier: archive
+    - identifier: archives
       name: Archive
-      title: Archive
+      # title: Archive
+      url: /archives/
+      weight: 1
+
+    - identifier: post
+      name: Posts
+      # title: Posts
       url: /posts/
-      weight: 0
+      weight: 2
+
+    - identifier: about
+      name: About
+      # title: Posts
+      url: /about/
+      weight: 4
+
+    - identifier: tags
+      name: Tags
+      # title: Tags
+      url: /tags/
+      weight: 3
 
 params:
   author: "Abdullah Hassen"
